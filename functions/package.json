@@ -1,6 +1,6 @@
 {
-  "name": "wtm-codelabs",
-  "description": "wtm-codelabs",
+  "name": "wtm-aog-boilerplate",
+  "description": "wtm-aog-boilerplate",
   "author": "Google Inc",
   "private": true,
   "scripts": {
@@ -11,6 +11,9 @@
     "deploy": "firebase deploy --only functions",
     "logs": "firebase functions:log"
   },
+  "engines": {
+		"node": "8"
+	},
   "dependencies": {
     "actions-on-google": "^2.0.0",
     "firebase": "^6.1.0",
