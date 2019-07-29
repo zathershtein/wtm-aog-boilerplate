@@ -3,9 +3,10 @@
 const {dialogflow, Permission, Suggestions} = require('actions-on-google');
 const functions = require('firebase-functions');
 
+const cities = require('./cities.js');
+
 // Instantiate the Dialogflow client.
 const app = dialogflow({debug: true});
-const cities = require('../data/cities.js');
 
 app.intent('Default Welcome Intent', (conv) => {
 	conv.ask('Hello World!');
