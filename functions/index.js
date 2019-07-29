@@ -5,7 +5,7 @@ const functions = require('firebase-functions');
 
 // Instantiate the Dialogflow client.
 const app = dialogflow({debug: true});
-const cities = require('../data/cities.js');
+const cities = require('./cities.js');
 
 app.intent('Default Welcome Intent', (conv) => {
 	conv.ask('Hello World!');
