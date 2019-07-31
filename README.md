@@ -2,6 +2,9 @@
 
 WTM Dnipro Actions on Google workshop boilerplate
 
+### AoG presentation
+https://docs.google.com/presentation/d/14RYodAJG0rDvrEA8pPRrfZv2cvFs83mM_M72DQyF61Q/edit?usp=sharing
+
 
 ### Actions on Google Console
 https://console.actions.google.com/
